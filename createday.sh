@@ -21,3 +21,6 @@ dotnet new console -o "$FOLDER"
 dotnet sln add "$FOLDER/$FOLDER.csproj"
 
 echo "$FOLDER created and added to solution!"
+
+touch "$FOLDER/input.txt"
+touch "$FOLDER/example.txt"
